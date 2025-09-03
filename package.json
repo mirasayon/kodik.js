@@ -1,0 +1,49 @@
+{
+    "name": "kodik",
+    "version": "0.0.1",
+    "description": "Universal kodikapi.com API wrapper for modern Javascript",
+    "type": "module",
+    "exports": {
+        ".": "./dist/main/client.js",
+        "./errors": "./dist/main/errors.js",
+        "./types": "./dist/main/types.js"
+    },
+    "scripts": {
+        "build": "rm -rf ./dist && tsc",
+        "build:hot": "rm -rf ./dist && tsc --watch",
+        "inspect:hot": "tsc --watch --noEmit",
+        "example": "node --env-file=./.env.test ./examples/index.ts",
+        "test": "vitest"
+    },
+    "devDependencies": {
+        "@types/node": "^24.3.0",
+        "typescript": "^5.9.2",
+        "vitest": "^3.2.4"
+    },
+    "keywords": [
+        "kodik",
+        "animeapi",
+        "kodik-api",
+        "anime-api",
+        "kodikapi"
+    ],
+    "homepage": "https://github.com/mirasayon/kodik.js#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mirasayon/kodik.js.git"
+    },
+    "author": {
+        "email": "mirasayon@ya.ru",
+        "name": "Miralisher",
+        "url": "https://mirasayon.com"
+    },
+    "files": [
+        "dist",
+        ".github"
+    ],
+    "engines": {
+        "node": ">=18"
+    },
+    "license": "MIT"
+}
+

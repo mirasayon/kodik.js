@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": "src",
+        "newLine": "crlf",
+        "declaration": true,
+        "strict": true,
+        "verbatimModuleSyntax": true,
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "target": "esnext"
+    },
+    "include": ["src"]
+}
