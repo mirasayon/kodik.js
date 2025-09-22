@@ -71,6 +71,7 @@ export interface MaterialDataOfEntity {
     description?: string;
     anime_description?: string;
     poster_url?: string;
+    anime_poster_url?: string;
     screenshots?: string[];
     duration?: number;
     countries?: string[];

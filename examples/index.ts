@@ -1,4 +1,4 @@
-import { ApiClient } from "../dist/main/client.js";
+import { ApiClient } from "kodik";
 
 // Создание клиента
 const client = new ApiClient({
